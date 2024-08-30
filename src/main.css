@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Nunito:wght@300&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 2. linear;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+html{
+
+
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/*head*/
+
+.main-container{
+
+background-image: url("../img/background.png");
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 700px;
+
+}
+
+.header{
+display: flex;
+justify-content:space-between ;
+width: 100%;
+padding: 5px 5%;
+align-items: center;
+
+
+}
+
+#logo-img{
+    width: 260px;
+    border-radius: 10%;
+    padding-top:0; 
+}
+
+.header .navbar a{
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.header .navbar a:hover{
+    background-color: #e29a00;
+    padding: 2px 10px;
+    border-radius: 15px;
+}
+
+#menu-bars{
+    color: white;
+    font-size: 16px;
+    display: none;
+
+
+}
+
+.navbar.active{
+
+    top:40%;
+
+}
+
+.blackground-text h2{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.blackground-text h2 span{
+    color: #e29a00;
+}
+
+.text-image{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.text-image img{
+    width: 100%;
+    margin-top: 260px;
+}
+
+/*end header*/
+
+/*home*/
+
+
+.home-container{
+
+    background-color: #dfdbdb;
+    padding: 32px 7%;
+    width: 100%;
+    height: 600px;
+}
+
+.home-content{
+
+    padding-top:64px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner-content{
+
+    flex: 1 1 45rem;
+    padding: 32px;
+}
+
+.inner-content h3{
+    font-size: 31px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.inner-content h2{
+    font-size: 38px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.inner-content p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+
+
+.inner-content .booknow{
+    padding:19px 34px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight:bold ;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+
+
+}
+.inner-content .booknow:hover{
+    padding: 20px 36px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+}
+
+/*home end*/
+
+/*feet started*/
+
+.main-Feets{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+}
+
+.main-Feets .inner-box{
+    float: left;
+    padding-top: 50px;
+    padding-left:110px;
+}
+
+
+
+.tarrif-container .inner-box img{
+    width: 100px;
+}
+
+.tarrif-container .inner-box img:hover{
+    padding: 5px;
+}
+
+
+.tarrif-container .inner-box h2{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+#Fleet-h2{
+
+    color: #211f1bb3;
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+#Fleet-h1{
+color: black;
+font-size: 30px;
+font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+.FleetsCount{
+    display: block;
+    background-color: #ffd500;
+    padding: 4px;
+    border-radius: 5px;
+
+}
+
+.icon-space-Fleetscount{
+    padding-right: 20px;
+}
+
+/*feet ended*/
+
+
+
+/*service */
+
+.service{
+
+
+    background: url(../img/secbg.png);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+
+
+
+#ser-h1{
+    color: black;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+.service h2{
+    color:  #e29a00;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.lnner-service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 3rem;
+
+}
+
+.service-content{
+    flex: 1 1 45rem;
+
+}
+
+.service-content{
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-service-text h1{
+    font-size: 22px;
+    color: #e29a00;
+    padding: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.inner-service-text p{
+    font-size: 15px;
+    padding: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.icon-service{
+    background-color: #e29a00;
+    width: 100px;
+    height: 40px;
+    border-radius: 150px;
+    text-align: center;
+}
+
+.icon-service span i{
+    line-height: 35px;
+    font-size: 15px;
+    padding-top: 2px;
+}
+/*service end */
+
+
+/*advantages*/
+
+.advantages{
+
+    background-color:rgb(245, 241, 241);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+
+
+
+
+
+.advantages #ser-h1{
+    color: black;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+.advantages h2{
+    color:  #656056;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.advantages .lnner-service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 3rem;
+
+}
+
+.advantages .service-content{
+    flex: 1 1 45rem;
+
+}
+
+.advantages .service-content{
+    color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.advantages .inner-service-text h1{
+    font-size: 22px;
+    font-weight:900;
+    color: #000000;
+    padding: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.advantages .inner-service-text p{
+    font-size: 15px;
+    padding: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+#advantages-img{
+    width: 400px;
+    margin-left: 30%;
+    padding-bottom: 20px;
+
+
+
+}
+
+/*end advantages*/
+
+
+/*stared footer*/
+
+.footer-text{
+    background-image: url("../img/footer.PNG");
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+
+}
+
+#footer-call{
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 300px;
+    padding-top: 30px;
+    float: left;
+}
+
+#contac-icon{
+
+    background-color: #000000;
+    width: 100px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#footer-cNumber{
+
+    padding-top: 30px;
+}
+
+.footer-logo{
+    text-align: left;
+    padding-top: 75px;
+    padding-left: auto;
+}
+
+#footer-logo-img{
+    width: 150px;
+    float: left;
+}
+
+.icon-logo{
+    background-color: #ffffff;
+    width: 100px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.footer-icon{
+    padding-top: 30px;
+    text-align: left;
+}
+
+.reserved h3{
+    color: #ffffff;
+    padding: auto;
+    text-align: right;
+    padding-right: 30px;
+}
+
+
+
+
+
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media quari in slide button*/
+
+
+
+
+@media (max-width:768px){
+    html {
+        font-size:50%;
+    }
+
+    #menu-bars{
+     display: initial;
+    
+    
+    }
+
+    .navbar{
+        position:absolute;
+        top: -100%;
+        right: 0;
+        left: 0;
+
+    }
+
+    .navbar a{
+        display: block;
+        margin:10px;
+        padding: 6px;
+        background-color:#e29a00 ;
+        color: white;
+        font-size:17px;
+     
+    }
+
+    .header{
+        padding: 4px;
+    }
+
+   
+}

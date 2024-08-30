@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Nunito:wght@300&display=swap');
+
+
+
+
+
+/*feet started*/
+
+.main-Feets{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+}
+
+.main-Feets .inner-box{
+    float: left;
+    padding-top: 50px;
+    padding-left:110px;
+}
+
+
+
+.tarrif-container .inner-box img{
+    width: 100px;
+}
+
+.tarrif-container .inner-box img:hover{
+    padding: 5px;
+}
+
+
+.tarrif-container .inner-box h2{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+#Fleet-h2{
+
+    color: #211f1bb3;
+    margin-top: 15%;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+#fleet-space{
+    font-size: 50px;
+    color: #e29a00;
+}
+
+.main-Feets h3{
+    text-align: center;
+    padding-left: 200px;
+    padding-right:200px;
+    padding-top: 30px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+#Fleet-h1{
+color: black;
+font-size: 30px;
+font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.FleetsCount{
+    display: block;
+    background-color: #ffd500;
+    padding: 4px;
+    border-radius: 5px;
+
+}
+
+.icon-space-Fleetscount{
+    padding-right: 20px;
+}
+
+
+
+/*feet ended*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

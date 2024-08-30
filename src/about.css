@@ -1,0 +1,148 @@
+/*about*/
+
+.about{
+
+    background-color:rgb(245, 241, 241);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+
+
+
+
+
+.about #about-h1{
+    color: black;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+.about h2{
+    color: rgb(246, 192, 68);;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 160px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    
+
+}
+
+.about #line{
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(246, 192, 68);;
+}
+
+.about .lnner-story{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 3rem;
+
+}
+
+.about .story-content{
+    flex: 1 1 45rem;
+
+}
+
+.about .story-content{
+    color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.about .inner-story-text p{
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*About ended*/
+
+
+/*OAD(Our ADVANTAGES section started)*/
+
+.OAD{
+
+    background-color:rgb(255, 255, 255);
+    background-size: cover;
+    width: 100%;
+    margin-top: 60px;
+    background-position: center;
+}
+
+
+
+
+
+
+#OAD-h1{
+    color: black;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+.OAD h2{
+    color: rgb(246, 192, 68);;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.OAD .inner-OAD-text p{
+    font-size: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    padding: 40px;
+}
+
+.OAD .OAD-content{
+   text-align: center;
+    width: 550px;
+    float: left;
+    margin-top: 50px;
+}
+
+.OAD .lnner-OAD{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 3rem;
+
+}
+
+.OAD .OAD-img{
+    width: 500px;
+}
+
+#OAD-line {
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(246, 192, 68);;
+}
+
+
+/*end OAD*/

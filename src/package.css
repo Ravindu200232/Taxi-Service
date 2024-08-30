@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Nunito:wght@300&display=swap');
+
+
+
+
+.package-text{
+    padding-top: 150px;
+    text-align: center;
+}
+
+.package-text h3{
+    color: rgb(246, 192, 68);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+}
+
+
+
+.package-text h2{
+    color: black;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+}
+
+.package-text span{
+    font-size: 50px;
+    color: rgb(246, 192, 68);
+}
+
+.package-img{
+    width: 100px;    
+}
+
+
+
+.package-table-details{
+
+    float: left;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+   
+}
+
+
+.package-table{
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+
+
+.package-table-details .gray{
+
+    background-color: rgb(222, 222, 222);
+}
+
+.package-table-details td{
+    padding-right: 30px;
+    padding: 10px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+.package-table-details th{
+    font-size: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    background-color:rgb(246, 192, 68);
+    padding: 10px;
+
+}
+
+.package-table-details h4{
+    color: rgb(224, 178, 27);
+}
+
+.package-table-details:hover{
+    transition-duration: 0.5s;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+    transform:scale(1.1) ;
+}
+
+.package-table-details .booking{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.package-table-details a{
+    background-color: rgb(246, 192, 68);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.package-table-details a:hover{
+   
+    background-color: rgb(230, 216, 116);
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+

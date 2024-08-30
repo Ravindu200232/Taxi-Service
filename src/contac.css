@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Nunito:wght@300&display=swap');
+
+.Contac {
+    background-color:rgb(255, 255, 255);
+    background-size: cover;
+    width: 100%;
+    margin-top: 60px;
+    background-position: center;
+}
+
+
+#Contac-h1{
+    color: black;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+.Contac #Contac-head-text{
+    color: rgb(246, 192, 68);;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+#Contac-line {
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(246, 192, 68);;
+}
+
+.Contac-content{
+    width: 550px;
+    float: left;
+    margin-top: 50px;
+}
+
+.Contac .inner-Contac-text h2{
+    font-size: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 40px;
+    text-align: center;
+}
+.Contac .inner-Contac-text h1{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Contac .lnner-Contac{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 40px;
+
+}
+
+label{
+    font-size: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;  
+}
+
+.Cform-text{
+    padding: 13px 10px 13px 100px; 
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.Cform-text:hover{
+    border: 1px solid rgb(211, 209, 209);
+}
+
+form{
+
+    border: 1px solid rgb(255, 255, 255);
+    width: 400px;
+}
+
+#Csubmit{
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(214, 150, 0) ;
+    border: none;
+    color: white;
+    border-radius: 5%;
+}
+
+#Csubmit:hover{
+    color: black;
+    background-color:  rgb(213, 164, 50);
+}
+/*Hotline start*/
+
+
+.Contac-Hotline-conten{
+    width: 550px;
+    float: left;
+    margin-top: 50px;
+}
+
+.inner-Contac-Hotline-text h1{
+
+    color: black;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+  
+
+#h-1{
+    float: left;
+}
+
+#h-2{
+    float: left;
+}
+
+#h-3{
+    float: left;
+}
+
+.Hotline-content{
+    padding: 40px 100px 40px 0px;
+}
+
+
+
+.inner-Contac-Hotline-text h2{
+    font-size: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.inner-Contac-Hotline-text p{
+    font-size: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+.inner-Contac-Hotline-text a{
+    color:rgb(246, 192, 68);; ;
+}
+
+
+
+/*google map extend*/
+
+.google-map {
+    margin-top: 50px;
+    padding-bottom: 30%;
+    position: relative;
+  }
+  
+  .google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }

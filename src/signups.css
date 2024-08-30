@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Nunito:wght@300&display=swap');
+
+.sign-form-div{
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+
+.sign-form{
+    background-color: rgb(255, 171, 3);
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+   
+
+}
+
+
+
+.sign-form h1{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 70px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+#login-img{
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+.logo-media{
+    margin-left: auto;
+}
+
+.sign-table{
+
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.sign-table td{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.sign-form label{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+.sign-form input{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 100px;
+    border: 2px solid rgb(151, 149, 146);
+}
+
+.sign-form #login{
+    font-size: 17px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-top: 10px;
+    background-color: rgb(228, 165, 41);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.sign-form #login:hover{
+    background-color: rgb(236, 189, 22);
+}
+
+
+.sign-form #remember{
+    font-size: 18px;
+}
+
+.sign-form span{
+    padding-left: 4px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+.sign-form #cancel{
+    font-size: 17px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-top: 10px;
+    background-color: rgb(255, 171, 3);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.sign-form #cancel:hover{
+    background-color: rgb(236, 189, 22);
+}
+
+
+
+
+.sign-form h3{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-align: right;
+}
+
+button{
+    font-size: 17px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-top: 10px;
+    background-color: rgb(255, 171, 3);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

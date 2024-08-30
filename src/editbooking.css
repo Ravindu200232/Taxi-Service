@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Nunito:wght@300&display=swap');
+
+.booking-form-div{
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+
+.booking-form{
+    background-image:url("../img/form-bac.png");
+    text-align: left;
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+
+}
+
+
+
+.booking-form h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+.form-fill{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    padding: 40px;
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.booking-form label{
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+.booking-form input{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+    margin-bottom:10px ;
+}
+
+.booking-form select{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+    margin-bottom:10px ;
+}
+
+.booking-form h3{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+#submit{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgb(236, 169, 0);
+    border: none;
+
+}
+
+#submit:hover{
+    background-color: rgb(187, 122, 25);
+}
+
+
+
